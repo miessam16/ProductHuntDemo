@@ -14,7 +14,7 @@ class ViewControllerUtils {
     var loadingView: UIView = UIView()
     var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
     
-   
+     
     func showActivityIndicator(uiView: UIView) {
         container.frame = uiView.frame
         container.center = uiView.center
